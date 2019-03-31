@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/tv"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Предложите товар"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Название"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/input_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Описание">
+    </EditText>
+    <EditText
+        android:id="@+id/input_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Цена">
+    </EditText>
+    <EditText
+        android:id="@+id/input_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Дата">
+    </EditText>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/image"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_marginTop="6dp"
+        android:layout_height="wrap_content"
+        android:text="Фото"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:background="@color/colorAccent"
+        android:id="@+id/btn_photo"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Предложить"
+        android:textColor="@color/black"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_save"/>
+
+</LinearLayout>

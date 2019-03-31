@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Village</string>
+    <string name="yet_sign_up">УЖЕ ЗАРЕГИСТРИРОВАНЫ? ВОЙТИ</string>
+    <string name="or_register">ИЛИ ЗАРЕГИСТРИРОВАТЬ ЧЕРЕЗ</string>
+    <string name="sign_up">ЗАРЕГИСТРИРОВАТЬСЯ</string>
+    <string name="re_type_password">ПОДТВЕРДИТЕ ПАРОЛЬ</string>
+    <string name="password">ПАРОЛЬ</string>
+    <string name="email">EMAIL</string>
+    <string name="register">РЕГИСТРАЦИЯ</string>
+    <string name="not_yet">ЕЩЕ НЕ С НАМИ? ЗАРЕГИСТРИРОВАТЬСЯ</string>
+    <string name="or_login_with">ИЛИ ЗАЙТИ ЧЕРЕЗ</string>
+    <string name="sign_in">ВОЙТИ</string>
+    <string name="forgot_password">ЗАБЫЛИ ПАРОЛЬ?</string>
+    <string name="remember_me">ЗАПОМНИТЬ МЕНЯ</string>
+    <string name="name">ИМЯ</string>
+    <string name="purchases">Покупки</string>
+    <string name="message">Сообщения</string>
+    <string name="profile">Профиль</string>
+    <string name="phone">Телефон</string>
+    <string name="getComments">Полученные отзывы</string>
+    <string name="giveComments">Оставленные отзывы</string>
+    <string name="exit">Выйти</string>
+    <string name="search">Поиск</string>
+
+
+</resources>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/cover"
+            android:layout_width="0dp"
+            android:layout_height="350dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cover" />
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="112dp"
+            android:layout_height="112dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/cover"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.086"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cover"
+            app:layout_constraintVertical_bias="0.45"
+            app:srcCompat="@drawable/photo" />
+
+    <TextView
+        android:id="@+id/txt_photo"
+        android:layout_width="109dp"
+        android:layout_height="23dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:text="Добавить фото"
+        app:layout_constraintLeft_toRightOf="@+id/photo"
+        app:layout_constraintTop_toBottomOf="@id/cover" />
+
+    <TextView
+        android:id="@+id/txt_exit"
+        android:layout_width="70dp"
+        android:layout_height="23dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="12dp"
+        android:text="Выйти"
+        app:layout_constraintLeft_toRightOf="@+id/txt_photo"
+        app:layout_constraintTop_toBottomOf="@id/cover" />
+
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="224dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="2dp"
+        android:padding="16dp"
+        android:text="Имя"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photo"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <TextView
+        android:id="@+id/txt_statistic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="16dp"
+        android:text="Ваша статистика"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photo"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <TextView
+        android:id="@+id/txt_post_static"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="16dp"
+        android:text="Оставленные отзывы"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photo"
+        app:layout_constraintVertical_bias="0.436" />
+
+    <TextView
+        android:id="@+id/txt_get_static"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="16dp"
+        android:text="Полученные отзывы"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.251"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photo"
+        app:layout_constraintVertical_bias="0.247" />
+
+    <TextView
+        android:id="@+id/txt_changePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="16dp"
+        android:text="Изменить пароль"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.251"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photo"
+        app:layout_constraintVertical_bias="0.827" />
+
+        <TextView
+            android:id="@+id/txt_addPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:padding="16dp"
+            android:text="Добавить телефон"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.235"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/photo"
+            app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/txt_preferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="16dp"
+        android:text="Предпочтения"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photo"
+        app:layout_constraintVertical_bias="0.629" />
+
+    </android.support.constraint.ConstraintLayout>
